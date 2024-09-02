@@ -75,7 +75,7 @@ def fetch_live_articles():
                 live_articles.append(art_values)
 
     # Ensure the directory exists
-    directory = "C:/Users/Divyansh/Desktop/news aggregator/data"
+    directory = "path/to/data"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
@@ -89,7 +89,7 @@ def fetch_live_articles():
 @app.route('/api/news', methods=['GET'])
 def get_live_articles():
     try:
-        with open("C:/Users/Divyansh/Desktop/news aggregator/data/articles.txt", 'r') as file:
+        with open("path/to/data/articles.txt", 'r') as file:
             articles = json.load(file)
         return jsonify(articles)
     except FileNotFoundError:

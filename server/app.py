@@ -35,7 +35,7 @@ def main():
     st.title("News Aggregator")
 
     # Define the path to the articles file
-    file_path = "C:/Users/Divyansh/Desktop/news aggregator/NewsAggrigator-AIthon/data/articles.txt"
+    file_path = "path/to/data/artciles.txt"
 
     # Read articles from the file
     articles = read_articles_from_file(file_path)
