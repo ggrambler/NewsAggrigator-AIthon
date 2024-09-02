@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+body{
+    
+    background-color: rgb(8, 8, 56);
+}
+
+.navbar{
+    background-color: rgba(10, 10, 67, 0.728);
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+.rout{
+    font-size: x-large;
+    color: white;
+    font-family: monospace,'Courier New', Courier;
+    margin: 1rem;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
